@@ -1,4 +1,10 @@
 .sidebar-container{
-    height: 100px;
-    width: 100vh;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile-img{
+    width: 150px;
+    height: 90px;
+    border-radius: 10px;
 }
