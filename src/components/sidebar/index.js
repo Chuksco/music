@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../sidebar/sidebar.css';
 import logo from '../../images/winamp-logo.webp';
 import SidebarButton from './sidebarButton';
@@ -11,10 +11,14 @@ import { FaSignOutAlt } from 'react-icons/fa';
 
 
 export default function Sidebar() {
+  const (image, setImage) = useState
+  useEffect(() => {
+
+  }, []);
   return (
     <>
       <div className='sidebar-container'>
-        <img src={logo} alt="Profile" className='profile-img' />
+        <img src={image} alt="Profile" className='profile-img' />
         <div>
           <SidebarButton title="Feed" to="/feed" icon={<MdSpaceDashboard />} />
           <SidebarButton title="Trending" to="/trending" icon={<FaFire />} />
