@@ -1,7 +1,7 @@
 import React from 'react';
 import { loginEndpoint } from '../spotify';
 import './login.css';
-import logo from '../images/winamp-logo.webp';
+import logo from '../images/logo2.png';
 
 export default function Login() {
     return (
