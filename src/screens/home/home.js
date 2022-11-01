@@ -21,10 +21,10 @@ export default function Home() {
         const _token = hash.split("&")[0].split("=")[1];
         window.localStorage.setItem("token", _token);
         setToken(_token);
-        // setClientToken(_token);
+        setClientToken(_token);
       } else {
         setToken(token);
-        // setClientToken(token);
+        setClientToken(token);
       }
     }, []);
   
