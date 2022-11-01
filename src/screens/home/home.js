@@ -5,6 +5,7 @@ import Sidebar from '../../components/sidebar';
 import Favorites from '../favorites/favorites';
 import Feed from '../feed/feed';
 import Library from '../library/library';
+import { setClientToken } from "../../spotify";
 import Player from '../player/player';
 import Trending from '../trending/trending';
 import './home.css';
