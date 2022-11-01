@@ -29,7 +29,7 @@ export default function Sidebar() {
           to="/favorites"
           icon={<MdFavorite />}
         />
-        <SidebarButton title="Library" to="/" icon={<IoLibrary />} />
+        <SidebarButton title="Library" to="/library" icon={<IoLibrary />} />
       </div>
       <SidebarButton title="Sign Out" to="" icon={<FaSignOutAlt />} />
     </div>

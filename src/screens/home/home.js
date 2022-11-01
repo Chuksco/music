@@ -4,7 +4,7 @@ import Login from '../../auth/login';
 import Sidebar from '../../components/sidebar';
 import Favorites from '../favorites/favorites';
 import Feed from '../feed/feed';
-import Library from '../library/library';
+import Library from '../library/index';
 import { setClientToken } from "../../spotify";
 import Player from '../player/player';
 import Trending from '../trending/trending';
@@ -40,7 +40,7 @@ export default function Home() {
             <Route path="/trending" element={<Trending />} />
             <Route path="/player" element={<Player />} />
             <Route path="/favorites" element={<Favorites />} />
-            <Route path="/" element={<Library />} />
+            <Route path="/library" element={<Library />} />
           </Routes>
         </div>
       </Router>
