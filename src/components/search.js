@@ -1,10 +1,11 @@
-import React, { useState} from 'react';
+import React from 'react';
+import Searchlogo from '../assets/search.png';
 
-
-const Search = () => {
-    const [search, setSearch] = useState(null);
-
-
+export default function Search() {
+  return (
+    <div className='search'>
+        <img src={Searchlogo} alt='search-icon' className='search-icon' />
+        <input type="text" placeholder='Search' className='search-box' />
+    </div>
+  )
 }
-
-export default Search;
